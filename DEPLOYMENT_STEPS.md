@@ -30,7 +30,7 @@ npm run build
 1. Go to [supabase.com](https://supabase.com)
 2. Sign up with GitHub (free)
 3. Click "New Project"
-4. Choose a name: `ai-learning-platform`
+4. Choose a name: `edai-learning-platform`
 5. Generate a strong password
 6. Select region closest to you
 7. Click "Create new project"
@@ -54,13 +54,13 @@ git commit -m "Initial commit"
 ### 3.2 Create GitHub Repository
 1. Go to [github.com](https://github.com)
 2. Click "New repository"
-3. Name: `ai-learning-platform`
+3. Name: `edai-learning-platform`
 4. Make it **Public** (required for free Vercel)
 5. Click "Create repository"
 
 ### 3.3 Push Your Code
 ```bash
-git remote add origin https://github.com/YOUR-USERNAME/ai-learning-platform.git
+git remote add origin https://github.com/YOUR-USERNAME/edai-learning-platform.git
 git branch -M main
 git push -u origin main
 ```
@@ -73,7 +73,7 @@ git push -u origin main
 1. Go to [vercel.com](https://vercel.com)
 2. Sign up with **GitHub** (free)
 3. Click "Import Project"
-4. Select your `ai-learning-platform` repository
+4. Select your `edai-learning-platform` repository
 5. Click "Import"
 
 ### 4.2 Configure Environment Variables
@@ -87,13 +87,13 @@ Before deploying, add these environment variables in Vercel:
 DATABASE_PROVIDER = postgresql
 DATABASE_URL = [your-supabase-connection-string]
 NEXTAUTH_SECRET = [generate-random-32-character-string]
-NEXTAUTH_URL = https://your-app-name.vercel.app
+NEXTAUTH_URL = https://edai-learning-platform.vercel.app
 ```
 
 ### 4.3 Deploy
 1. Click "Deploy"
 2. Wait for build to complete (~2-3 minutes)
-3. Your app will be live at `https://your-app-name.vercel.app`
+3. Your app will be live at `https://edai-learning-platform.vercel.app`
 
 ---
 
@@ -123,7 +123,7 @@ npx prisma db push
 
 ## ✅ **Step 6: Test Your Live App**
 
-1. Visit your live URL: `https://your-app-name.vercel.app`
+1. Visit your live URL: `https://edai-learning-platform.vercel.app`
 2. Try creating an account
 3. Navigate to courses
 4. Test the progress bar functionality

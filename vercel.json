@@ -8,6 +8,6 @@
     }
   },
   "env": {
-    "NEXTAUTH_URL": "https://your-app-name.vercel.app"
+    "NEXTAUTH_URL": "https://edai-learning-platform.vercel.app"
   }
 }
